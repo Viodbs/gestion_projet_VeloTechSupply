@@ -1,0 +1,127 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #8cb6ce;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Sections */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h3 {
+    border-bottom: 2px solid #8cb6ce;
+    padding-bottom: 10px;
+}
+
+/* Listes */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Onglets */
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabs button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent h4 {
+    margin-top: 0;
+}
